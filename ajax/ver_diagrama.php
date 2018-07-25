@@ -32,7 +32,8 @@ $totalRows_diagram= mysqli_num_rows($diagram);
    <div class="card my-4">
     <div class="card-body">
       <div class="d-flex justify-content-between">
-      <a href="diagrama.html?=<?php echo $row_diagram['name']; ?>" class="card-link"><h5 class="card-title text-capitalize"><?php echo $row_diagram['name']; ?></h5></a>
+        
+      <a href="diagrama.html?=<?php echo $row_diagram['name']; ?>" class="card-link "><h5 class="font-weight-bold card-title text-capitalize"><?php echo $row_diagram['name']; ?></h5></a>
       <p class="card-text text-capitalize"><small class="text-muted"><?php echo $row_diagram['author']; ?></small></p>
       </div>
       <div class="contenido">
