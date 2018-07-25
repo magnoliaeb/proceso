@@ -40,7 +40,7 @@ svg{
       color:#890000;
     }
 
-    .diagrama-principal{
+    .diagrama-principal svg{
       height:auto;
       width: 100%;
       display: inline;
